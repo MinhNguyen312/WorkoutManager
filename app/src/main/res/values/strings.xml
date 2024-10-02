@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomApp-WorkoutManager</string>
+    <string name="number_of_set">Number of Set:</string>
+    <string name="date">Date:</string>
+    <string name="exercise_name">Exercise Name:</string>
+    <string name="number_of_reps">Number of Reps</string>
+    <string name="weight_kg">Weight (Kg)</string>
+    <string name="update">Update</string>
+</resources>
