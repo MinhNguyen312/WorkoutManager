@@ -65,8 +65,8 @@ class WorkoutHistoryViewModel : ViewModel() {
 
 
     private fun readData(){
-        val database = Firebase.database("https://workoutmanager-99900-default-rtdb.asia-southeast1.firebasedatabase.app/")
-        val myRef = database.getReference("104225962")
+        val database = Firebase.database("FIREBASE_API_KEY")
+        val myRef = database.getReference("DATABSE_REF")
 
         myRef.get().addOnSuccessListener {
             if(it.exists()){
